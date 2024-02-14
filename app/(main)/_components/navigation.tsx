@@ -68,8 +68,11 @@ export const Navigation = () => {
       collapse();
     } else {
       resetWidth();
+      [];
+      
     }
   }, [isMobile]);
+  
 
   useEffect(() => {
     if (isMobile) {
